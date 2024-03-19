@@ -122,32 +122,16 @@ const Hero = () => {
     <Section>
       <Navbar />
       <Container>
-      <Left>
+        <Left>
           <Title>AceMind Tennis</Title>
           <Desc>
-          Welcome to 'AceMind Tennis': See AI learning tennis live! Filter through 10 to 1,000 tests and watch the AI improve against human or ball machine opponents. Witness the evolution of AI tennis skills in real-time! Join us in shaping AI tennis mastery at AceMind Tennis!
+            Welcome to 'AceMind Tennis': See AI learning tennis live! Filter through 10 to 1,000 tests and watch the AI improve against human or ball machine opponents. Witness the evolution of AI tennis skills in real-time! Join us in shaping AI tennis mastery at AceMind Tennis!
           </Desc>
           <Link className="" to={'/game'}>
             <Button>Try Now</Button>
           </Link>
         </Left>
         <Right>
-          <Canvas>
-            <Suspense fallback={null}>
-              <OrbitControls enableZoom={false} />
-              <ambientLight intensity={1} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.4}>
-                <MeshDistortMaterial
-                  color="#005000"
-                  attach="material"
-                  distort={0.5}
-                  speed={2}
-                />
-              </Sphere>
-            </Suspense>
-          </Canvas>
-          <Img src="./img/ball.png" />
         </Right>
       </Container>
     </Section>

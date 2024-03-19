@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.button`
-  background-color: #A2C523;
+  background-color: #FF0000; // Changed this line
   color: white;
   font-weight: 500;
   width: 100px;
@@ -12,10 +12,11 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
+
 const Example2 = () => {
   return (
     <div className="grid min-h-[200px] place-content-center bg-slate-900 p-4">
-      <DrawOutlineButton>Try Game</DrawOutlineButton>
+      <DrawOutlineButton>CONTACT</DrawOutlineButton>
     </div>
   );
 };
@@ -26,15 +27,15 @@ const DrawOutlineButton = styled(Button)`
   position: relative;
   padding: 8px 16px; /* Adjusted padding to reduce the button size */
   font-weight: 500;
-  color: #a2c523;
+  color: #FF0000;
   background-color: transparent;
-  border: 2px solid #a2c523;
+  border: 2px solid #FF0000;
   transition: color 0.4s, border-color 0.4s;
   font-size: 14px; /* Reduced font size */
 
   &:hover {
-    color: white;
-    background-color: #a2c523;
+    color: #FFFFFF;
+    background-color: #000000;
   }
 `;
 

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Hero from "../components/Hero";
 
-
 const Container = styled.div`
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -9,11 +8,12 @@ const Container = styled.div`
   overflow-y: auto;
   scrollbar-width: none;
   color: white;
-  background: url("./img/bg.jpeg");
-  &::-webkit-scrollbar{
+  background: black; // Changed this line
+  &::-webkit-scrollbar {
     display: none;
   }
 `;
+
 
 function IndexPage() {
   return (

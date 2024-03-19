@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 1400px;
   display: flex;
   justify-content: space-between;
+
   align-items: center;
 
   margin: 0 auto;
@@ -16,6 +17,7 @@ const Container = styled.div`
 const Links = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 20px;
 `;
 
 const Logo = styled.img`
@@ -25,8 +27,9 @@ const Logo = styled.img`
 
 const List = styled.ul`
   display: flex;
-  gap: 45px;
+  gap: 55px;
   list-style: none;
+  align-items: center;
   padding-left: 110px;
 `;
 
@@ -45,7 +48,7 @@ const ListItem = styled.li`
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: white;
+    background-color: red;
   }
 `;
 
@@ -62,7 +65,7 @@ const StyledLink = styled(Link)`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: #a2c523;
+  background-color: #FF0000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -72,19 +75,26 @@ const Button = styled.button`
 const Navbar = () => {
   return (
     <Container>
-      <Links>
-        <StyledLink className="" to={'/'}>
+      <StyledLink className="" to={'/'}>
           <Logo src="./img/logo.png" />
         </StyledLink>
+      <Links>
+      
         <List>
           <StyledLink className="" to={'/'}>
-            <ListItem>Home</ListItem>
+            <ListItem>HOME</ListItem>
           </StyledLink>
           <StyledLink className="" to={'/about'}>
-            <ListItem>About</ListItem>
+            <ListItem>ADULTS</ListItem>
           </StyledLink>
-          <StyledLink className="" to={'/rules'}>
-            <ListItem>How to Play</ListItem>
+          <StyledLink className="" to={'/about'}>
+            <ListItem>CHILDREN</ListItem>
+          </StyledLink>
+          <StyledLink className="" to={'/about'}>
+            <ListItem>LINEAGE</ListItem>
+          </StyledLink>
+          <StyledLink className="" to={'/about'}>
+            <ListItem>LOGIN</ListItem>
           </StyledLink>
         </List>
       </Links>
