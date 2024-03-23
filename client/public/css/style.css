@@ -166,8 +166,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #ff1900;
-  background-image: linear-gradient(to right, #ff5900 0%, #fc9c03 100%);
+  background-image: linear-gradient(to right, #e9a806 0%, #dab900 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
