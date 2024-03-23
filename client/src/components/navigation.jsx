@@ -22,6 +22,7 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll navbar-brand-custom" href="#page-top">
       One Heart <br /> Siu Lum Pai Hung Gar <br /> Arizona
         </a>
+        <img src="img/logo2.png" alt="Description of the image" className="logo-small" />
         </div>
 
         <div
@@ -29,14 +30,15 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
+            
             <li>
-              <a href="#features" className="page-scroll">
-                Adults
+              <a href="#about" className="page-scroll">
+                About
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                Children
+              <a href="#features" className="page-scroll">
+              Programs
               </a>
             </li>
             <li>

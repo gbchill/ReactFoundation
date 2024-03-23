@@ -34,6 +34,10 @@ code {
 #testimonials {
   background-color: black;
 }
+
+.section-title{
+  color:white;
+}
 #footer{
   background-color: black;
 }
@@ -49,5 +53,9 @@ code {
   padding-right: 15px; /* Example value */
   padding-bottom: 15px; /* Example value */
   padding-left: 15px; /* Example value */
+}
+
+.intro-text {
+  margin-top: -120px; /* Adjust this value based on your needs */
 }
 

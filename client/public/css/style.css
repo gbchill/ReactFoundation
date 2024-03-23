@@ -43,13 +43,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #f52963;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #f52963;
 }
 ul,
 ol {
@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #eaff63 0%, #ff7b00 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #ff7300 0%, #ff0000 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +135,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #000000;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #000000;
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #ffee00 0%, #f88f5a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +166,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #ff1900;
+  background-image: linear-gradient(to right, #ff5900 0%, #fc9c03 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +184,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #110005;
 }
 .btn:active,
 .btn.active {
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -247,36 +247,51 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  color:white;
+  
+}
+#text-center{
+  color:white;
 }
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
-  color: #fff;
+  color:white;
   width: 100px;
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(to right, #ffee00 0%, #f88f5a 100%);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.05);
+}
+#features h2 {
+  color:white;
+}
+
+#features h3 {
+  color:white;
 }
 /* About Section */
 #about {
   padding: 100px 0;
+  color:white;
 }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  color:white;
 }
 #about h2 {
   position: relative;
   margin-bottom: 15px;
+  color:white;
   padding-bottom: 15px;
 }
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #ffee00 0%, #f88f5a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +306,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #ffee00;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -310,8 +325,8 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #490101 0%, #540101 100%);
+
 }
 #services .service-desc {
   margin: 10px 10px 20px;
@@ -322,7 +337,7 @@ header .intro-text {
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #ffee00 0%, #f88f5a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -334,7 +349,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ffd363 0%, #e2b10e 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -370,8 +385,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgba(238, 57, 12, 0.8) 0%,
+    rgba(227, 100, 10, 0.8) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -403,6 +418,9 @@ header .intro-text {
 #testimonials {
   padding: 100px 0;
   background: #f6f6f6;
+}
+#testimonials h2 {
+  color:white;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -442,27 +460,67 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+  color:white;
 }
+
 #team h4 {
   margin: 5px 0;
 }
+#team h2 {
+  color:white;
+}
+#team .team-img {
+  max-width: 100%; /* Ensures the image can scale up to the full width of its parent */
+  height: auto; /* Maintains the aspect ratio of the image */
+}
+
+#team .thumbnail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Ensures the thumbnail takes up the full width of its parent container */
+  max-width: 300px; /* Optionally set a max-width to control the size */
+}
+
+#team .col-md-3.col-sm-6.team {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 100%; /* Adjust this to control how many items per row, e.g., 0 0 33% for 3 items per row */
+  max-width: 33%; /* This should match the above flex basis if you're controlling items per row */
+}
+
+
 #team .team-img {
   width: 240px;
+  
 }
+
 #team .thumbnail {
   background: transparent;
   border: 0;
+
 }
+#team h4{
+  color:white;
+}
+
+
 #team .thumbnail .caption {
-  padding: 10px 0 0;
+  padding: 10px;
+  
   color: #888;
 }
+
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: linear-gradient(to right, #490101 0%, #540101 100%);
+  color: rgba(12, 1, 1, 0.75);
 }
+
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -478,18 +536,29 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, #ffd363 0%, #e2b10e 100%);
+  color:white
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 30px;
 }
+
+/* In YourComponent.css */
+.logo-small {
+  width: 40px; /* Or any size you prefer */
+  height: auto; /* Maintain aspect ratio */
+}
+
 #contact h3 {
   color: #fff;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+}
+#contact p {
+  color: #fff;
 }
 #contact form {
   padding-top: 20px;
@@ -596,7 +665,7 @@ label {
   color: #608dfd;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #770505;
 }
 
 @media (max-width: 768px) {

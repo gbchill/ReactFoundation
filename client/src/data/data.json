@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "a 1000 mile journey begins with a single step...",
+    "title": "A IOOO mile journey begins with a single step...",
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Our school is dedicated to promoting the Lam Family Hung Gar Kung Fu style of traditional Chinese Martial Arts and to bring together a diverse group of people, regardless of race, religion, color, age or sex through hung gar training as well as knowledge of the history and culture from which the Art originated.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Coordination",
+      "Muscle strength",
+      "Discipline",
+      "Reduces mental stress."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Boosts self-confidence.",
+      "Concentration.",
+      "Mental well-being.",
+      "Self-defense skills."
     ]
   },
   "Gallery": [
@@ -67,34 +67,29 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/lineage/Lam_Sai_Wing.jpeg", 
+      "name": "Sijo Lam Sai Wing",
+      "text": "Lam Sai Wing was born in 1860 and lived until 1943. He was widely considered one of the best boxers of his time, and he was certainly one of the most famous. Lam Sai Wing inherited the Hung Gar style from his sifu, Wong Fei Hung, and passed it on to his nephew, current grandmaster Lam Cho."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/lineage/Tai_Tai_Sigung_Lam_Cho.jpg", 
+      "name": "Tai Tai Sigung Lam Cho",
+      "text": "Lam Cho came from Pan Chao in Guangshou. An orphan, he was adopted and raised by his uncle, Lam Sai Wing. When his uncle went to Hong Kong, he went with him to learn martial arts. He was blessed with quick arms, a strong body, and superior physical dexterity. His uncle loved him as his own son, and taught him in the authentic martial arts tradition."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/lineage/Sigung_Lam_Chun_Fai.jpeg", 
+      "name": "Sigung Lam Chun Fai",
+      "text": "Grand Master Lam Chun Fai, the eldest son of great-grandmaster Lam Cho was born in Hong Kong. Named by his great uncle Lam Sai Wing, he began his Hung Gar training at the age of 5 under the careful and strict guidance of his father. As a young man he assisted his father with teaching kung fu and treating patients."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
+      "image": "img/lineage/Sifu_Kinney.jpeg",
+      "name": "Sifu Kinney",
+      "text": "Paul Kinney has enjoyed the benefits of practicing Hung Gar Kung Fu for more than three decades and continues his practice through the authentic traditional kung fu teachings of the famous Grandmaster Lam Chun Fai, Son of the renowned, venerable Grand Master Lam Cho. Sifu Kinney’s Kung Fu practice emphasizes developing radiant health by connecting the mind, body and spirit in every moment."
+    }, 
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/lineage/Sifu_Figueroa.jpg",
+      "name": "Sifu Figueroa",
+      "text": "His 36+ years of training experience offers instruction in the Southern Styles of Hung Gar and Choy Lay Fut Kung Fu.His teaching principles, which adhere to a philosophy of hard work and perseverance, is the foundation of these unique styles which require his personal involvement with all students from beginners to the advance training of instructors. The program offers training in classical empty hand and weapons sets, which are prearranged movements designed to develop strength, coordination and speed, while improving the cardiovascular system, toning the body, reducing stress and developing an overall sense of well-being, as well as teaching the student the theories of technique and body movement particular to the style. The program also includes practical self-defense instruction for women, children, teens and men of all ages."
     }
   ],
   "Testimonials": [
@@ -131,25 +126,19 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+    
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/Sifu_Figueroa.jpg",
+      "name": "Sifu Figueroa",
+      "job": "Chief Instructor"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/Sifu_Figuero.jpg",
+      "name": "Sifu Mondejar",
+      "job": "Instructor"
     }
+   
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
@@ -162,23 +151,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Adult's Program",
+      "text": "Our adult program combines Hung Gar and Choy Lay Fut martial arts for enhanced physical and mental well-being, offering a free trial to experience practical self-defense techniques and overall fitness in a supportive environment."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Children's Program",
+      "text": "Our children's Kung Fu program, for ages 4 to 13, fosters a supportive environment to learn Hung Gar and Choy Lay Fut, emphasizing essential skills such as focus, teamwork, and discipline to promote overall development, confidence, and fitness."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Hung Gar",
+      "text": "Our primary focus is Hung Kuen, also known as the Tiger and Crane System, a traditional Shaolin Chinese Martial Art, renowned as a prevalent Southern style, incorporating techniques inspired by five animals: tiger, white crane, dragon, snake, and leopard."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Choy Lay Fut",
+      "text": "Considered as a Southern Chinese Kung Fu Style (Hung Sing) system which offers the benefits of Northern Kung Fu style footwork, sweeping techniques coupled with Southern style's strong, techniques."
     }
   ]
 }
