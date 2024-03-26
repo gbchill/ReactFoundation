@@ -1,6 +1,18 @@
 body,
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.grape-nuts-regular {
+  font-family: "Grape Nuts", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
-  font-family: "Open Sans", sans-serif;
+
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +23,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -81,14 +93,16 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Grape Nuts", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: black; /* Set text color to black */
   text-transform: uppercase;
+  -webkit-text-stroke: 1.7px rgb(100, 14, 14); /* Set a 2px red border around the text */
 }
+
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -163,7 +177,7 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-image: linear-gradient(to right, #e9a806 0%, #dab900 100%);
@@ -226,14 +240,17 @@ a:focus,
   
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: black; /* Text color */
+  -webkit-text-stroke: 1.5px rgb(134, 7, 7); /* Increased stroke width for thicker border */
+  font-family: "Grape Nuts", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-size: 82px;
-  font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
@@ -250,7 +267,10 @@ header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
+  font-weight: 400; /* Set font weight to normal */
+  font-style: normal; /* Keep the font style normal */
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -268,6 +288,7 @@ header .intro-text {
   width: 100px;
   height: 100px;
   padding: 30px 0;
+  background:black;
   border-radius: 50%;
   background: linear-gradient(to right, #ffee00 0%, #f88f5a 100%);
   box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.05);
@@ -312,7 +333,7 @@ header .intro-text {
 }
 #about .about-text li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   color: #ffee00;
   font-size: 11px;
   font-weight: 300;
